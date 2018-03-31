@@ -1,10 +1,48 @@
 .service{
   height: 250px;
-  background: red;
-  border: 1px solid blue;
+margin-bottom: 5%;
+
 
 }
 
 .zoma{
 padding-top: 10px;
+}
+
+.background{
+position: relative;
+max-width: 1920px;
+}
+.text{
+background: gray;
+top: 30%;
+opacity: 0.7;
+
+position:absolute;
+right: 0px;
+margin-left: 30%;
+
+}
+.hex {
+clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+height: 100%;
+background: orange;
+position: relative;
+max-width: 1920px;
+margin-bottom: 5%
+}
+.header{
+padding-bottom: 10%;
+font-size: 30px;
+color: white;
+}
+
+.slogan{
+font-size: 30px;
+font-size: auto;
+font-size: :3.5vw
+}
+
+.img{
+width: 30%;
 }
